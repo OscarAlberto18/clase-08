@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Button from './_button'
+import video from './_video'
+import input from './_input'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -39,7 +41,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-
+        <Button></Button>
         <div className={styles.center}>
           <Image
             className={styles.logo}
@@ -59,7 +61,10 @@ export default function Home() {
             />
           </div>
         </div>
-       <Button></Button>
+       <input></input>
+       <button></button>
+       <video></video>
+      
         <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"

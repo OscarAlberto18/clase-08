@@ -1,7 +1,9 @@
-export default function button() {
+export default function Button() {
+
     return(
         <button>
-         Esto es un texto de referencia
+            Esto es otro texto de referencia.
         </button>
     )
+
 }
